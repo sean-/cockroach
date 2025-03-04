@@ -4,7 +4,6 @@ go_library(
     name = "kv",
     srcs = [
         "kv.go",
-        "zipfian.go",
     ],
     importpath = "github.com/cockroachdb/cockroach/pkg/workload/kv",
     visibility = ["//visibility:public"],
